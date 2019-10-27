@@ -3,6 +3,8 @@ EntityGateCore is an open source .NET library to easily use Entity Framework Cor
 
 This micro-framework allows you to use objects managed by Entity Framework Core without worrying about the context.
 
+## For EntityFrameworkCore see [EntityGateCore](https://github.com/MetallicBlueDev/EntityGateCore)
+
 # Is EntityGateCore for me?
 Although EntityGateCore can be used by all, it exists specifically to offer additional scenarios to the Entity Framework.
 
