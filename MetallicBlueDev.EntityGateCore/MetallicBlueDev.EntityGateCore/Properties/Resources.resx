@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplyEntityTracking" xml:space="preserve">
+    <value>Apply entity tracking...</value>
+  </data>
+  <data name="ChangeEntityToState" xml:space="preserve">
+    <value>Change the entity '{0}' to the state '{1}'.</value>
+  </data>
+  <data name="ConfigurationChanged" xml:space="preserve">
+    <value>The configuration has been changed.</value>
+  </data>
+  <data name="ConfigurationHasBeenLoaded" xml:space="preserve">
+    <value>Configuration '{0}' has been loaded.</value>
+  </data>
+  <data name="ConfigurationSynchronized" xml:space="preserve">
+    <value>The configuration is synchronized with the context.</value>
+  </data>
+  <data name="ConnectionStringIsInvalid" xml:space="preserve">
+    <value>The connection name '{0}' is invalid or 'ConnectionStrings' is corrupt.</value>
+  </data>
+  <data name="ConnectionStringNotFound" xml:space="preserve">
+    <value>No ConnectionString found for connection name '{0}'.</value>
+  </data>
+  <data name="ContextOptionsExtensionUndefined" xml:space="preserve">
+    <value>Context options extension must be defined.</value>
+  </data>
+  <data name="CurrentEntityTypeState" xml:space="preserve">
+    <value>Current entity type is '{0}'.</value>
+  </data>
+  <data name="DeletingEntity" xml:space="preserve">
+    <value>Deleting '{0}' '{1}'.</value>
+  </data>
+  <data name="DetectionOfChanges" xml:space="preserve">
+    <value>Detection of changes.</value>
+  </data>
+  <data name="EntityKeyNotFound" xml:space="preserve">
+    <value>Entity key not found for entity '{0}' ('{1}').</value>
+  </data>
+  <data name="EntityTypeIsNotSerializable" xml:space="preserve">
+    <value>Entity type '{0}' is not serializable.</value>
+  </data>
+  <data name="EntityTypeUndefined" xml:space="preserve">
+    <value>Current entity type is undefined.</value>
+  </data>
+  <data name="FailedToCreateContextWithEntityType" xml:space="preserve">
+    <value>Failed to create context with entity type '{0}'.</value>
+  </data>
+  <data name="FailedToCreateContextWithType" xml:space="preserve">
+    <value>Failed to create context with type '{0}'.</value>
+  </data>
+  <data name="FailedToExecuteCommand" xml:space="preserve">
+    <value>Failed to execute command '{0}' for entity '{1}' ('{2}').</value>
+  </data>
+  <data name="FailedToTrackPocoEntities" xml:space="preserve">
+    <value>Failed to track POCO entities.</value>
+  </data>
+  <data name="InitializingContext" xml:space="preserve">
+    <value>Initializing context...</value>
+  </data>
+  <data name="InvalidConfiguration" xml:space="preserve">
+    <value>Invalid configuration.</value>
+  </data>
+  <data name="InvalidContext" xml:space="preserve">
+    <value>Invalid context.</value>
+  </data>
+  <data name="InvalidEntity" xml:space="preserve">
+    <value>Invalid entity.</value>
+  </data>
+  <data name="InvalidEntityEntryFor" xml:space="preserve">
+    <value>Invalid entity entry for '{0}'.</value>
+  </data>
+  <data name="InvalidEntityRefreshChanges" xml:space="preserve">
+    <value>Invalid entity for refresh changes.</value>
+  </data>
+  <data name="InvalidEntityStateForTracking" xml:space="preserve">
+    <value>State '{0}' is not valid entity state for tracking ({1}).</value>
+  </data>
+  <data name="InvalidEntityType" xml:space="preserve">
+    <value>Invalid entity type '{0}'.</value>
+  </data>
+  <data name="InvalidMainEntity" xml:space="preserve">
+    <value>Invalid main entity.</value>
+  </data>
+  <data name="LazyLoadingState" xml:space="preserve">
+    <value>Lazy loading is '{0}'.</value>
+  </data>
+  <data name="ListEntity" xml:space="preserve">
+    <value>List entity '{0}' ('{1}').</value>
+  </data>
+  <data name="LoadingEntity" xml:space="preserve">
+    <value>Loading entity '{0}' ('{1}').</value>
+  </data>
+  <data name="MakingNewContext" xml:space="preserve">
+    <value>Making a new context...</value>
+  </data>
+  <data name="MustImplementInterface" xml:space="preserve">
+    <value>'{0}' must implement the interface '{1}'.</value>
+  </data>
+  <data name="NewAttempt" xml:space="preserve">
+    <value>New attempt ({1}/{2}: {3} seconds).</value>
+  </data>
+  <data name="NoTrackedEntity" xml:space="preserve">
+    <value>There is no tracked entity.</value>
+  </data>
+  <data name="ObjectDisposed" xml:space="preserve">
+    <value>Resources are no longer available.</value>
+  </data>
+  <data name="ObjectStateEntryNotFound" xml:space="preserve">
+    <value>Object state entry not found for {0}.</value>
+  </data>
+  <data name="Query" xml:space="preserve">
+    <value>Query: '{0}'.</value>
+  </data>
+  <data name="SavingChanges" xml:space="preserve">
+    <value>Saving changes.</value>
+  </data>
+  <data name="SavingEntityInState" xml:space="preserve">
+    <value>Saving '{0}' '{1}' in state '{2}'.</value>
+  </data>
+  <data name="UnableToCreateObject" xml:space="preserve">
+    <value>Unable to create object '{0}' with type '{1}'.</value>
+  </data>
+  <data name="UnableToCreateType" xml:space="preserve">
+    <value>Unable to create the type '{0}'.</value>
+  </data>
+  <data name="UnableToExecuteCommand" xml:space="preserve">
+    <value>Unable to execute {0} command after {1} retry.</value>
+  </data>
+  <data name="UnableToExecuteRequest" xml:space="preserve">
+    <value>Unable to execute the request: '{0}'.</value>
+  </data>
+  <data name="UnableToFindConnectionString" xml:space="preserve">
+    <value>Unable to find ConnectionString '{0}'.</value>
+  </data>
+  <data name="UnableToGetPropertyName" xml:space="preserve">
+    <value>Unable to get property name '{0}'.</value>
+  </data>
+  <data name="UnableToHandleEntityType" xml:space="preserve">
+    <value>Unable to handle this entity type.</value>
+  </data>
+  <data name="UnableToLoadEntityKey" xml:space="preserve">
+    <value>Unable to load {0} with identifier '{1}'.</value>
+  </data>
+  <data name="UnableToObtainInformationContainedInEntity" xml:space="preserve">
+    <value>Unable to obtain all the information contained in the entity '{0}'.</value>
+  </data>
+  <data name="UnexpectedEntityState" xml:space="preserve">
+    <value>Unexpected entity state '{0}' for '{1}'.</value>
+  </data>
+  <data name="UnknownQuery" xml:space="preserve">
+    <value>Unknown query.</value>
+  </data>
+</root>
